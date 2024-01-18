@@ -1,0 +1,137 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+body {
+	color: #000;
+	line-height: 1;
+	/* user-select: none; */
+}
+.overflow {
+	overflow-y: hidden;
+}
+.btn {
+	border-radius: 20px;
+	transition: .2s;
+	cursor: pointer;
+	user-select: none;
+}
+.btn:active {
+	transform: scale(0.9);
+	transition: .1s;
+}
+.block {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.wrapper {
+	min-height: 100%;
+	min-width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.container {
+	position: relative;
+	z-index: 1;
+	min-height: 100%;
+	height: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+
+.main {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.calculator-block {
+	width: 250px;
+	padding: 10px;
+	background-color: #181c28;
+	border-radius: 15px;
+}
+.buttons-conatiner {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+.button-block {
+	padding: 5px;
+}
+.result-block {
+	width: 100%;
+	display: flex;
+	justify-content: end;
+	align-items: end;
+	max-width: 100%;
+	height: 100px;
+	/* background: #424151; */
+	margin: 5px 5px 10px 5px;
+	border-radius: 5px;
+	padding: 0 5px;
+}
+.result-text {
+	max-width: 100%;
+	/* direction: rtl; */
+	background-color: transparent;
+	border: none;
+	color: #fff;
+	font-size: 30px;
+}
+
+
+.button-1 { grid-area: 1 / 1 / 2 / 2; }
+.button-2 { grid-area: 1 / 2 / 2 / 3; }
+.button-3 { grid-area: 1 / 3 / 2 / 4; }
+.button-4 { grid-area: 1 / 4 / 2 / 5; }
+.button-5 { grid-area: 2 / 1 / 3 / 2; }
+.button-6 { grid-area: 2 / 2 / 3 / 3; }
+.button-7 { grid-area: 2 / 3 / 3 / 4; }
+.button-8 { grid-area: 2 / 4 / 3 / 5; }
+.button-9 { grid-area: 3 / 1 / 4 / 2; }
+.button-10 { grid-area: 3 / 2 / 4 / 3; }
+.button-11 { grid-area: 3 / 3 / 4 / 4; }
+.button-12 { grid-area: 3 / 4 / 4 / 5; }
+.button-13 { grid-area: 4 / 1 / 5 / 2; }
+.button-14 { grid-area: 4 / 2 / 5 / 3; }
+.button-15 { grid-area: 4 / 3 / 5 / 4; }
+.button-16 { grid-area: 4 / 4 / 5 / 5; }
+.button-17 { grid-area: 5 / 1 / 6 / 3; }
+.button-18 { grid-area: 5 / 3 / 6 / 4; }
+.button-19 { grid-area: 5 / 4 / 6 / 5; }
+
+
+.btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 10px;
+	background: #424151;
+	color: #fff;
+}
+.grau {
+	color: #000;
+	background: #a5a5a5;
+}
+.yellow {
+	color: #fff;
+	background: #ff9f0a;
+}
+  
+  
+
+
+@media screen and (max-width: 991px) {
+	
+}
+
+@media screen and (max-width: 767px) {
+
+}
